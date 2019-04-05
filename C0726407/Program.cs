@@ -22,7 +22,7 @@ namespace C0726407
         public void ReadTextFiles()
         {
             // Read file using StreamReader. Reads file line by line
-            using (StreamReader file = new StreamReader(""))
+            using (StreamReader file = new  StreamReader(""))
             {
                 int counter = 0;
                 string ln;
