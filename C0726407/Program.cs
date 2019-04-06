@@ -22,7 +22,7 @@ class Program
         Console.ReadLine();
 
     }
-    public void Run()
+    public void  Run()
 
     { this.ReadTextFiles(); }
     public void ReadTextFiles()
