@@ -10,5 +10,7 @@ Line number of the lines which contain BOTH of these words: Sea and Fare (cover 
 File has 8 lines
 "Section D"
 Line number of the lines which contain the word:Fare without the word: War
+14 lines
 "Section E"
 Average number of letters per word returned as a float
+5.63
