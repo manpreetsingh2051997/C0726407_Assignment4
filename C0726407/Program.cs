@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C0726407
+ namespace C0726407
 { 
 class Program
 {
@@ -41,9 +41,10 @@ class Program
             }
             file.Close();
             counter = File.ReadLines("U:/Users/726407/Downloads/Beowulf.txt").Count();
-            Console.WriteLine($"File has {counter } lines.");
-
-        }
+            
+                Console.WriteLine($"File has {counter } lines.");
+                Console.WriteLine($"File has {counter * 10} lines.");
+            }
     }
 
     public int FindNumberOfBlankSpaces(string line)
